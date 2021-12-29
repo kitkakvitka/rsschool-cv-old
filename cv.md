@@ -36,5 +36,4 @@ I hope that my soft skills will help me find a new job in six months, because no
 ## Languages
 + Ukrainian, russian – native speaker;
 + English A2 (I had been practicing English, when I volunteered at the festival and with my english-medium studens);
-+ French – A1;
 + Latin and ancient greek – basic (my specialization).
