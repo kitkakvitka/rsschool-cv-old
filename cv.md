@@ -35,5 +35,6 @@ I hope that my soft skills will help me find a new job in six months, because no
 + Moodle (how to create online courses).
 ## Languages
 + Ukrainian, russian – native speaker;
++ French – A1;
 + English A2 (I had been practicing English, when I volunteered at the festival and with my english-medium studens);
 + Latin and ancient greek – basic (my specialization).
