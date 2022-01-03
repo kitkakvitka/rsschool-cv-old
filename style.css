@@ -109,15 +109,24 @@ margin-bottom: 2rem;
   padding: 20px;
 }
 .git-link > a {
-  font-size: 30px;
+  font-size: 25px;
 }
 .git-link > a > img {
-  width: 40px;
+  width: 30px;
   position: relative;
   top: 2px;
 }
+.my-project-link a {
+  font-size: 25px;
+}
+.my-project-link> a > img {
+  width: 30px;
+  position: relative;
+  top: 2px;
+}
+
 .rsschool-link > a {
-  font-size: 30px;
+  font-size: 25px;
 }
 .rsschool-link > a > img {
   width: 80px;
