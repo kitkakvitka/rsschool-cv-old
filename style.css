@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   max-width: 1024px;
   min-width: 600px;
@@ -9,22 +12,28 @@ body {
   padding: 2rem;
   background-color: rgb(216, 216, 216);
 }
-
 .cv {
   display: flex;
   max-width: 1024px;
   margin: auto;
   border: rgb(53, 53, 53) solid 2px;
 }
-
 .main {
   display: block;
 }
-
 .header {
   margin-bottom: 20px;
 }
-.photo {
+.nav-list {
+  list-style-type: none;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  .photo {
   width: 100%;
   margin: 0;
 }
@@ -34,7 +43,6 @@ body {
   -moz-box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
   box-shadow: 5px 6px 32px 1px rgba(0,0,0,0.49);
 }
-
 .about {
   display: flex;
   flex-direction: column;
@@ -43,39 +51,35 @@ body {
   color: rgb(202, 202, 202);
   background-color: #303030;
   justify-content: flex-start;
-  align-items: stretch;
 }
-
-.contacts__text {
+.contact {
   text-transform: none;
-  font-size: 16px;
+  font-size: 16px; color: #c9c9c9;
 }
-
 ul {
   list-style-type: disc; padding: 5;
 }
 .skills_list {
   margin-bottom: 2rem;
 }
-
-.rss {
-  margin-top: 40px;
-  width: 75%;
-  height: 50px;
-  background-image: url('https://rs.school/images/rs_school_js.svg');
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
- margin-bottom: 5rem;
+.skills{
+  font-size: 14px;
 }
-
 .about-me {
   padding: 1rem;
   width: 100%;
   color: #303030;
   background-color: white;
+  align-items: stretch;
 }
-
+h1 {
+  font-size: 36px;
+  line-height: 30px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 35px;
+}
 .underline {
 color: #303030;
 width: 100%;
@@ -84,22 +88,46 @@ margin-top: 0.5rem;
 background-color: rgb(29, 29, 29);
 margin-bottom: 2rem;
 }
-
+.underline-white{
+  color: #b9b9b9;
+  width: 100%;
+  height: .05rem;
+  margin-top: 0.5rem;
+  background-color: rgb(211, 211, 211);
+  margin-bottom: 2rem;
+  }
 .education {
-  margin-bottom: 3rem;  
+  margin-bottom: 3rem;
 }
 
 .footer__nav__list {
   display: flex;
   flex-direction: row;
-  margin-top: 8rem;
   justify-content: space-around;
+  margin-top: 2rem;
   align-items: center;
+  padding: 20px;
 }
-
-.footer__nav__list li {
-  list-style-type: none;
+.git-link > a {
+  font-size: 30px;
 }
-.year-font {
-  font-family: 'Verdana', sans-serif, cursive;
+.git-link > a > img {
+  width: 40px;
+  position: relative;
+  top: 2px;
+}
+.rsschool-link > a {
+  font-size: 30px;
+}
+.rsschool-link > a > img {
+  width: 80px;
+  position: relative;
+  top: 2px;
+}
+.year {
+  width: 100px;
+  text-align: center;
+  font-size: 37px;
+  line-height: 37px;
+  font-weight: bold;
 }
